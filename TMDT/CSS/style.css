@@ -7,3 +7,29 @@ body{
 .login{
 	padding-top: 10px;
 }
+/*menu left */
+.submenu li{
+	padding-left:30px;
+	
+	background:url(../images/arrow-33-xxl.png) no-repeat 10px 9px  ;
+	}
+ul{
+list-style-type:none;	
+}
+.col-3{
+	
+}
+.col-4{
+	
+}
+.col-5{
+	
+}
+#menuleft{
+	padding-left:px;
+	border:1px solid #000;
+	
+}
+.sphis{
+	border:1px solid #000;
+}
