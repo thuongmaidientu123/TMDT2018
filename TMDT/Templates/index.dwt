@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
+<!-- TemplateBeginEditable name="title" -->
 <title>SanSachCu.tk</title>
+<!-- TemplateEndEditable -->
 <!-- incluce Bootrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -14,7 +16,7 @@
 <meta name="viewport" content="width=divice-width, inial-scale=1">
 <!--	mobile-->
 
-<link href="CSS/style.css" rel="stylesheet" type="text/css">
+<link href="../CSS/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="container-fluid">
@@ -27,7 +29,7 @@
       </div>
       <button type="submit" class="btn btn-primary mb-2 btn-sm">Đăng nhập</button>
     </form>
-    <form class="signup" action="Pages/DangKy.html" >
+    <form class="signup" action="../Pages/DangKy.html" >
       <button style="margin-left: 10px;" type="submit" class="btn mb-2 btn-sm btn-dark">Đăng ký</button>
     </form>
   </div>
@@ -37,9 +39,9 @@
     <div class="col-4"> </div>
   </div>
   <ul class="nav justify-content-center font-weight-bold border">
-    <li class="nav-item"> <a class="nav-link" href="index.html">Mua Sách</a> </li>
-    <li class="nav-item"> <a class="nav-link" href="Pages/BanSach.html">Bán sách</a> </li>
-    <li class="nav-item"> <a class="nav-link" href="Pages/SachDienTu.html">Sách điện tử</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="../index.html">Mua Sách</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="../Pages/BanSach.html">Bán sách</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="../Pages/SachDienTu.html">Sách điện tử</a> </li>
   </ul>
   <div class="row">
     <div class="col-4" >
