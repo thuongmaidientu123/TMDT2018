@@ -1,5 +1,5 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<html>
 <head>
 <meta charset="utf-8">
 <title>SanSachCu.tk</title>
@@ -33,7 +33,7 @@
   </div>
   <div class="row">
     <div class="col-4 justify-content-between"></div>
-    <div class="col-4"><img src='images/7ee62396-958d-4b0b-9c7e-951474c0f12c.png' class="img-fluid" alt="Placeholder image"></div>
+    <div class="col-4"><img src='../images/7ee62396-958d-4b0b-9c7e-951474c0f12c.png' class="img-fluid" alt="Placeholder image"></div>
     <div class="col-4"> </div>
   </div>
   <ul class="nav justify-content-center font-weight-bold border">
@@ -76,7 +76,7 @@
      
     </div>
 	  
-    <div class="col-5"><!-- InstanceBeginEditable name="Content" -->Content<!-- InstanceEndEditable --></div>
+    <div class="col-5"><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable --></div>
     <div class="col-3">
     <fieldset style="border:thin;color:#999">
 <legend>Tìm Kiếm</legend>
@@ -131,4 +131,4 @@
   </div>
 </div>
 </body>
-<!-- InstanceEnd --></html>
+</html>
