@@ -2,7 +2,9 @@
 <html><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="utf-8">
+<!-- InstanceBeginEditable name="title" -->
 <title>SanSachCu.tk</title>
+<!-- InstanceEndEditable -->
 <!-- incluce Bootrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -14,7 +16,7 @@
 <meta name="viewport" content="width=divice-width, inial-scale=1">
 <!--	mobile-->
 
-<link href="CSS/style.css" rel="stylesheet" type="text/css">
+<link href="../CSS/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="container-fluid">
@@ -27,7 +29,7 @@
       </div>
       <button type="submit" class="btn btn-primary mb-2 btn-sm">Đăng nhập</button>
     </form>
-    <form class="signup" action="Pages/DangKy.html" >
+    <form class="signup" action="DangKy.html" >
       <button style="margin-left: 10px;" type="submit" class="btn mb-2 btn-sm btn-dark">Đăng ký</button>
     </form>
   </div>
@@ -37,9 +39,9 @@
     <div class="col-4"> </div>
   </div>
   <ul class="nav justify-content-center font-weight-bold border">
-    <li class="nav-item"> <a class="nav-link" href="index.html">Mua Sách</a> </li>
-    <li class="nav-item"> <a class="nav-link" href="Pages/BanSach.html">Bán sách</a> </li>
-    <li class="nav-item"> <a class="nav-link" href="Pages/SachDienTu.html">Sách điện tử</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="../index.html">Mua Sách</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="BanSach.html">Bán sách</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="SachDienTu.html">Sách điện tử</a> </li>
   </ul>
   <div class="row">
     <div class="col-4" >
@@ -76,7 +78,74 @@
      
     </div>
 	  
-    <div class="col-5"><!-- InstanceBeginEditable name="Content" -->Content<!-- InstanceEndEditable --></div>
+    <div class="col-5"><!-- InstanceBeginEditable name="Content" -->
+		<div class="container">
+            <form class="form-horizontal" role="form">
+                
+                <div class="form-group">
+                    <label for="firstName" class="col-sm-3 control-label">Họ và tên</label>
+                    <div class="col-sm-9">
+                      <input type="text" id="firstName" placeholder="" class="form-control" autofocus>
+                        
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Email</label>
+                    <div class="col-sm-9">
+                      <input type="email" id="email" placeholder="" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">Mật khẩu<br>
+                  <div class="col-sm-9">
+                      <input type="password" id="password" placeholder="" class="form-control">
+                  </div>
+              </div>
+                <div class="form-group">
+                  <label for="birthDate" class="col-sm-3 control-label">Ngày sinh</label>
+                  <div class="col-sm-9">
+                        <input type="date" id="birthDate" class="form-control">
+                  </div>
+              </div>
+				
+                <div class="form-group">
+                    <label for="address" class="col-sm-3 control-label">Địa chỉ</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" >
+                    </div>
+                </div>
+				<div class="form-group">
+                    <label for="phonenumber" class="col-sm-3 control-label">Số điện thoại</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" >
+                    </div>
+                </div>
+				<!-- /.form-group -->
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Giới tính</label>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                  <input type="radio" id="femaleRadio" value="Female"> Nữ
+                                </label>
+                            </div>
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                  <input type="radio" id="maleRadio" value="Male">Nam
+                                </label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                      <button type="submit" class="btn btn-primary btn-block">Đăng ký</button>
+                    </div>
+                </div>
+            </form> <!-- /form -->
+        </div> <!-- ./container -->
+		<!-- InstanceEndEditable --></div>
     <div class="col-3">
     <fieldset style="border:thin;color:#999">
 <legend>Tìm Kiếm</legend>
