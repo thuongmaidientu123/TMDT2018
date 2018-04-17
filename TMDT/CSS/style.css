@@ -11,7 +11,7 @@ body{
 .submenu li{
 	padding-left:30px;
 	
-	background:url(../images/arrow-33-xxl.png) no-repeat 10px 9px  ;
+	background:url(../images/template/arrow-33-xxl.png) no-repeat 10px 9px    ;
 	}
 ul{
 list-style-type:none;	
@@ -29,6 +29,65 @@ list-style-type:none;
 	padding-left:px;
 	
 }
-.sphis{
-	
+
+/*Dangky.html*/
+
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+/*index - Minh Tri*/
+}
+.main {
+  width: auto;
+  text-align: center;
+  margin: auto;
+}
+.container_1 {
+  position: relative;
+  width: 100%;
+}
+ 
+.hinh {
+  display: block;
+  width: 180px;
+  height: 240px;
+}
+ 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	margin:;
+  height: 240px;
+  width: 180px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #CCC8C8;
+}
+ 
+.container_1:hover .overlay {
+  opacity: 1;
+}
+ 
+.text {
+  color: black;
+  font-size: 12px;
+	margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(50%, 50%);
 }

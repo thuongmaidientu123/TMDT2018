@@ -2,7 +2,9 @@
 <html><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="utf-8">
-<title>SanSachCu.tk</title>
+<!-- InstanceBeginEditable name="title" -->
+<title>Bán sách - SanSachCu.tk</title>
+<!-- InstanceEndEditable -->
 <!-- incluce Bootrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -14,10 +16,10 @@
 <meta name="viewport" content="width=divice-width, inial-scale=1">
 <!--	mobile-->
 
-<link href="CSS/style.css" rel="stylesheet" type="text/css">
+<link href="../CSS/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
   <div class="row" style="margin-top: 10px">
     <div class="col-sm-6 login"></div>
     <form class="form-inline">
@@ -27,22 +29,22 @@
       </div>
       <button type="submit" class="btn btn-primary mb-2 btn-sm">Đăng nhập</button>
     </form>
-    <form class="signup" action="Pages/DangKy.html" >
+    <form class="signup" action="DangKy.html" >
       <button style="margin-left: 10px;" type="submit" class="btn mb-2 btn-sm btn-dark">Đăng ký</button>
     </form>
   </div>
   <div class="row">
     <div class="col-4 justify-content-between"></div>
-    <div class="col-4"><img src='../images/7ee62396-958d-4b0b-9c7e-951474c0f12c.png' class="img-fluid" alt="Placeholder image"></div>
+    <div class="col-4"><img src='../images/logo.png' class="img-fluid" alt="Placeholder image"></div>
     <div class="col-4"> </div>
   </div>
   <ul class="nav justify-content-center font-weight-bold border">
-    <li class="nav-item"> <a class="nav-link" href="index.html">Mua Sách</a> </li>
-    <li class="nav-item"> <a class="nav-link" href="Pages/BanSach.html">Bán sách</a> </li>
-    <li class="nav-item"> <a class="nav-link" href="Pages/SachDienTu.html">Sách điện tử</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="../index.html">Mua Sách</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="BanSach.html">Bán sách</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="SachDienTu.html">Sách điện tử</a> </li>
   </ul>
   <div class="row">
-    <div class="col-4" >
+    <div class="col-3 border" >
       <div>
         <ul>
           <li><a href="#">Danh mục </a>
@@ -76,19 +78,62 @@
      
     </div>
 	  
-    <div class="col-5"><!-- InstanceBeginEditable name="Content" -->Content<!-- InstanceEndEditable --></div>
-    <div class="col-3">
+    <div class="col-6 border"><!-- InstanceBeginEditable name="Content" -->
+		<form method="get">        
+           <table >
+           			<tr>
+                    	<td>Tên Sách: </td>
+                        <td><input class="form-control" type="text" size="30"/></td>
+                    </tr>
+                    <tr>
+                    	<td>Tác Giả: </td>
+                        <td><input class="form-control" type="text" size="30"/></td>
+                    </tr>
+                     <tr>
+                    	<td>Mô tả chi tiết: </td>
+                        <td><textarea class="form-control" cols="32" rows="5" wrap="off" ></textarea></td>
+                    </tr>
+                    
+                    <tr>
+                    	
+                        <td align="right">
+                        	<input  type="radio" >Đăng Tin
+                        		
+                        	
+                        </td><td align="center">
+                        		<input type="radio" >Bán Cho SanSachCu
+                        		</td>
+                    </tr>
+                    <tr>
+                    	<td>Địa Chỉ: </td>
+                        <td><input class="form-control" type="text" size="30"/></td>
+                    </tr>
+                     <tr>
+                    	<td>Số điện thoại: </td>
+                        <td><input class="form-control" type="text" size="30"/></td>
+                    </tr>
+                     <tr>
+                    	<td>Giá: </td>
+                        <td><input class="form-control" type="text" size="30"/></td>
+                    </tr>
+                     <tr>
+                    	<td></td>
+                        <td align="center"><input class="btn btn-block btn-primary" type="submit" value="Bán Sách" /></td>
+                    </tr>
+           </table>
+           </form><!-- InstanceEndEditable --></div>
+    <div class="col-3 border">
     <fieldset style="border:thin;color:#999">
 <legend>Tìm Kiếm</legend>
-    <select>
-  <option value="volvo">Thể Thoại</option>
+    <select class="form-control">
+  <option class="" value="volvo">Thể Thoại</option>
   <option value="saab">ngôn tình</option>
   <option value="mercedes">AA</option>
   <option value="audi">BBB</option>
 </select>
 </br>
 </br>
- <select>
+ <select class="form-control">
   <option value="volvo">Nhà Xuất Bản</option>
   <option value="saab"> tiki</option>
   <option value="mercedes">lazada</option>
@@ -96,7 +141,7 @@
 </select>
 </br>
 </br>
- <select>
+ <select class="form-control">
   <option value="volvo">Tác Giả</option>
   <option value="saab"> bill gates</option>
   <option value="mercedes">ronadol</option>
@@ -104,7 +149,7 @@
 </select>
 </br>
 </br>
- <select>
+ <select class="form-control">
   <option value="volvo">Giá</option>
   <option value="saab">100.000-500.000</option>
   <option value="mercedes">500.000-1.000.000</option>
@@ -112,13 +157,13 @@
 </select>
 </br>
 </br>
-    <button>
+    <button class="btn">
     Tìm Kiếm
     </button>
     </br>
 	</br>
     </fieldset>
-        <button>
+        <button class="btn">
 				Liên hệ với chúng tôi
     </button>
     </div>
