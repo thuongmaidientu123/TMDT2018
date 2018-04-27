@@ -59,8 +59,8 @@ list-style-type:none;
  
 .hinh {
   display: block;
-  width: 180px;
-  height: 240px;
+  width: 257px;
+  height: 317px;
 }
  
 .overlay {
@@ -70,8 +70,8 @@ list-style-type:none;
   left: 0;
   right: 0;
 	margin:;
-  height: 240px;
-  width: 180px;
+  height: 317px;
+  width: 257px;
   opacity: 0;
   transition: .5s ease;
   background-color: #CCC8C8;
